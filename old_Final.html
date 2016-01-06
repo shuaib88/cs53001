@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> 
+<head>
+<title>SoundCloud Home Page</title>
+</head>
+
+<body>
+<h1>SoundCloud Home Page</h1>
+
+Welcome to SoundCloud, join our community, contribute tracks, and playlists and join music groups!!
+
+<!-- Sign Up -->
+
+<hr>
+
+Sign up here: <a href= "http://cgi-cspp.cs.uchicago.edu/~ahmed1/cs53001/signUp.html"
+> Sign Up </a>
+
+<!-- Track -->
+
+<hr>
+
+Find, Add and Remove Tracks Here: <a href= "http://cgi-cspp.cs.uchicago.edu/~ahmed1/cs53001/Tracks.html"
+> Tracks </a>
+
+<!-- Person -->
+
+<hr>
+
+Find people on Soundcloud, become a member: <a href= "http://cgi-cspp.cs.uchicago.edu/~ahmed1/cs53001/Person.html"
+> People </a>
+
+<!-- Playlists -->
+
+<hr>
+
+Checkout Playlists: <a href= "http://cgi-cspp.cs.uchicago.edu/~ahmed1/cs53001/playlist.html"
+> Playlists </a>
+
+
+
+<!-- Groups -->
+
+
+<!-- Search by tag,  -->
+<hr>
+
+Find out who's in this database by showing userID and name.
+<a href="show_users.php">Show users</a>
+
+<hr>
+Get the poster of a particular song.
+<p>
+<form method=get action="songAuthor.php">
+<b>Enter Song title:</b><br />
+<input type="text" name="trackName"><br />
+<input type="submit" value="Submit">
+</form>
+
+
+<hr>
+See who the moderator of a group is
+<p>
+<form method=get action="findModerator.php">
+<b>Enter group name:</b><br />
+<input type="text" name="groupName"><br />
+<input type="submit" value="Submit">
+</form>
+
+
+</html>

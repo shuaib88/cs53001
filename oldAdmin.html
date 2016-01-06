@@ -1,0 +1,65 @@
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> 
+<head>
+<title>Person</title>
+</head>
+
+<body>
+<h1>People Page</h1>
+
+<hr>
+The top ten people who publish the most tracks 
+<a href="mostProlificPublishers.php"> Show the top ten </a>
+
+<!--change password-->
+
+
+<hr>
+<p>
+<form method=get action="changePassword.php">
+<b> Change your password: </b><br />
+Username: <br />
+<input type="text" name="username"><br>
+Current Password: <br />
+<input type="text" name="currentPassword"><br />
+New Password: <br />
+<input type="text" name="newPassword"><br />
+
+<input type="submit" value="Submit">
+
+</form>
+
+
+<!-- change username -->
+
+<hr>
+<p>
+<form method=get action="changeUsername.php">
+<b> Change your username: </b><br />
+Current Username: <br />
+<input type="text" name="currentUsername"><br />
+Password: <br />
+<input type="text" name="password"><br />
+New Username: <br />
+<input type="text" name="newUsername"><br />
+
+<input type="submit" value="Submit">
+
+</form>
+
+
+
+<hr>
+<p>
+<form method=get action="mod - removeTrack.php">
+<b> Remove one of your tracks from SoundCloud: </b><br />
+Track ID: <br />
+<input type="text" name="trackID"><br />
+<input type="submit" value="Submit">
+</form>
+
+<hr>
+<p> Navigate back to SoundCloud Home Page
+<a href="http://cgi-cspp.cs.uchicago.edu/~ahmed1/cs53001/Final.html"> Home Page 
+</a>

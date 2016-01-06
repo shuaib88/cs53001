@@ -1,0 +1,57 @@
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> 
+<head>
+<title>Tracks</title>
+</head>
+
+<body>
+<h1>Tracks Page</h1>
+
+<hr>
+The ten most popular tracks
+<a href="topTenTracks.php"> Show the top ten </a>
+
+<hr>
+<p>
+<form method=get action="searchForTrack.php">
+<b>Search for your favorite track by name:</b><br />
+<input type="text" name="searchTerm"><br />
+<input type="submit" value="Submit">
+</form>
+
+
+<hr>
+<p>
+<form method=get action="addTrack.php">
+<b> Add a track to SoundCloud: </b><br />
+Username: <br />
+<input type="text" name="username"><br />
+Password: <br />
+<input type="text" name="password"><br />
+Track Name: <br />
+<input type="text" name="trackName"><br />
+
+<input type="submit" value="Submit">
+
+</form>
+
+
+<hr>
+<p>
+<form method=get action="mod_removeTrack.php">
+<b> Remove one of your tracks from SoundCloud: </b><br />
+Username: <br />
+<input type="text" name="username"><br />
+Password: <br />
+<input type="text" name="password"><br />
+Track ID: <br />
+<input type="text" name="trackID"><br />
+<input type="submit" value="Submit">
+</form>
+
+<hr>
+<p> Navigate back to SoundCloud Home Page
+<a href="http://cgi-cspp.cs.uchicago.edu/~ahmed1/cs53001/Final.html"> Home Page 
+</a>
+

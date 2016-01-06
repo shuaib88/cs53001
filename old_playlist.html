@@ -1,0 +1,98 @@
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> 
+<head>
+<title>Playlist Page</title>
+</head>
+
+<body>
+<h1>Playlist Page</h1>
+
+<!--top 10 playlists-->
+
+
+<hr>
+Find the people who publish the 10 most popular playlists 
+<a href="topTenPlaylistPublishers.php">Show the top ten</a>
+
+</body>
+
+<!--find playlists by tag-->
+
+<hr>
+Enter a tag to find playlists you'll like 
+<p>
+<form method=get action="taggedPlaylist.php">
+<b>Enter tag name:</b><br />
+<input type="text" name="tagName"><br />
+<input type="submit" value="Submit">
+</form>
+
+
+
+<hr>
+<p>
+<form method=get action="newPlaylist.php">
+<b> Add a new playlist </b><br />
+
+Username: <br />
+<input type="text" name="username"><br />
+
+Password: <br />
+<input type="text" name="password"><br />
+
+Playlist Name: <br />
+<input type="text" name="playlistName"><br />
+
+
+<input type="submit" value="Submit">
+
+</form>
+
+
+<hr>
+<p>
+<form method=get action="deletePlaylist.php">
+<b> Delete a playlist </b><br />
+
+Username: <br />
+<input type="text" name="username"><br />
+
+Password: <br />
+<input type="text" name="password"><br />
+
+Playlist Name: <br />
+<input type="text" name="playlistName"><br />
+
+
+<input type="submit" value="Submit">
+
+</form>
+
+
+<hr>
+<p>
+<form method=get action="updatePlaylist.php">
+<b> Update a playlist </b><br />
+
+Username: <br />
+<input type="text" name="username"><br />
+
+Password: <br />
+<input type="text" name="password"><br />
+
+Current Playlist Name: <br />
+<input type="text" name="playlistName"><br />
+
+New Playlist Name: <br />
+<input type="text" name="newPlaylistName"><br />
+
+
+<input type="submit" value="Submit">
+
+</form>
+
+<hr>
+<p> Navigate back to SoundCloud Home Page
+<a href="http://cgi-cspp.cs.uchicago.edu/~ahmed1/cs53001/Final.html"> Home Page 
+</a>
